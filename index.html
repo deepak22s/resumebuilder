@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumebuilder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <h1>DEEPAK's Resume Builder</h1>
+  <form id="resumeForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" required>
+    <label for="summary">Summary:</label>
+    <textarea id="summary" rows="4" required></textarea>
+    <label for="experience">Experience:</label>
+    <textarea id="experience" rows="4" required></textarea>
+    <label for="education">Education (School, College):</label>
+    <textarea id="education" rows="4" required></textarea>
+    <label for="skills">Skills:</label>
+    <textarea id="skills" rows="4" required></textarea>
+    <label for="languagesknown">Languages Known:</label>
+    <textarea id="languagesknown" rows="4" required></textarea>
+    <label for="strengths">Strengths:</label>
+    <textarea id="strengths" rows="4" required></textarea>
+    <label for="weakness">Weakness:</label>
+    <textarea id="weakness" rows="4" required></textarea>
+    <button type="submit">Generate Resume</button>
+
+  </form>
+  <div id="resumePreview"></div>
+  <script src="script.js"></script>
+</body>
+</html>
